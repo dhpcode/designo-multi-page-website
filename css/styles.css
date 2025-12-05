@@ -94,7 +94,7 @@ body {
 	line-height: 26px;
 	background-color: white;
 	color: #222;
-	background-image: url('../images/home/desktop/body-bg.svg');
+	background-image: url("../images/home/desktop/body-bg.svg");
 	background-repeat: no-repeat;
 	background-size: 1006px 594px;
 	background-position: 10% 150%;
@@ -303,7 +303,7 @@ select:-webkit-autofill:focus {
 .weblinks-container {
 	display: flex;
 	gap: 30px;
-	background-image: url('');
+	background-image: url("");
 }
 .weblinks-left {
 	width: 541px;
@@ -379,14 +379,70 @@ select:-webkit-autofill:focus {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(231, 129, 107, 0.75);
-	
 }
-
 
 .weblinks-item:hover .overlay {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
+}
 
+/* Illustration  */
+
+.illustration {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+.illustration-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.illustration-image-box {
+	position: relative;
+	margin-bottom: 48px;
+	height: 202px;
+	width: 202px;
+	overflow: hidden;
+}
+
+.illustration-image-box::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background-image: url("../images/home/desktop/bg-pattern-hero-home.svg");
+	background-size: cover;
+	background-position: center;
+		z-index: -1;
+}
+
+.illustration-image-box-passionate::before {
+	transform: rotate(270deg);
+}
+
+.illustration-image-box-resourceful::before {
+	transform: rotate(180deg);
+}
+
+
+.illustration-card-img {
+	width: 188px;
+	height: 162px;
+}
+.illustration-content {
+	text-align: center;
+}
+.illustration-title {
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 26px;
+	letter-spacing: 5px;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+.illustration-text {
+	letter-spacing: 0;
 }
