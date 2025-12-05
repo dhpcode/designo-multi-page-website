@@ -152,6 +152,24 @@ select:-webkit-autofill:focus {
 	flex-grow: 1;
 }
 
+/* SITE LOGO */
+.site-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.site-logo-image {
+	width: 196px;
+	height: 24px;
+}
+
+.site-logo:hover {
+	opacity: 0.8;
+}
+
+.site-logo:active {
+	opacity: 0.6;
+}
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 	only screen and (min--moz-device-pixel-ratio: 2),
@@ -170,15 +188,6 @@ select:-webkit-autofill:focus {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
-.site-logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.site-logo-image {
-	width: 196px;
-	height: 24px;
 }
 
 .sitenav-list {
