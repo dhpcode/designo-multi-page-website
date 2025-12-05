@@ -94,6 +94,10 @@ body {
 	line-height: 26px;
 	background-color: white;
 	color: #222;
+	background-image: url('../images/home/desktop/body-bg.svg');
+	background-repeat: no-repeat;
+	background-size: 1006px 594px;
+	background-position: 10% 150%;
 }
 
 img {
@@ -299,6 +303,7 @@ select:-webkit-autofill:focus {
 .weblinks-container {
 	display: flex;
 	gap: 30px;
+	background-image: url('');
 }
 .weblinks-left {
 	width: 541px;
