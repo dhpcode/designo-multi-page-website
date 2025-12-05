@@ -170,6 +170,28 @@ select:-webkit-autofill:focus {
 .site-logo:active {
 	opacity: 0.6;
 }
+
+/* MAIN LINK */
+
+.main-link {
+	display: inline-block;
+	padding: 18px 24px;
+	border-radius: 8px;
+	background-color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 100%;
+	letter-spacing: 1px;
+	color: inherit;
+}
+
+.main-link:active {
+	background-color: #ffad9b;
+	color: #fff;
+}
+
 /* RETINA BACKGROUNDS */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 	only screen and (min--moz-device-pixel-ratio: 2),
@@ -212,4 +234,58 @@ select:-webkit-autofill:focus {
 
 .sitenav-link:active {
 	text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+
+/* Hero */
+
+.hero {
+	margin-bottom: 160px;
+}
+.hero-container {
+	background-origin: border-box;
+	display: flex;
+	gap: 98px;
+	height: 640px;
+	padding: 145px 95px;
+	background-color: #e7816b;
+	border-radius: 15px;
+	background-image: url("../images/home/desktop/bg-pattern-hero-home.svg");
+	background-size: 640px 640px;
+	background-repeat: no-repeat;
+	background-position: right 0;
+	overflow: hidden;
+}
+
+.hero-content {
+	width: 540px;
+}
+.hero-title {
+	height: 165px;
+	font-size: 48px;
+	line-height: 48px;
+	color: white;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 11px;
+}
+.hero-text {
+	width: 445px;
+	margin-top: 0;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+.hero-right {
+	flex-grow: 1;
+	/* background-image: url('../images/home/desktop/phone-image.png'); */
+}
+
+.hero-right-image {
+	width: 281px;
+	height: 500px;
+	box-shadow: 20px -40px 80px #5d02027f;
+	border-top-left-radius: 37px;
+	border-top-right-radius: 37px;
 }
