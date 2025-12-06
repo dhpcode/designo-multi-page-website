@@ -461,6 +461,9 @@ select:-webkit-autofill:focus {
 	background-image: url("../images/shared/desktop/bg-pattern-call-to-action.svg");
 	background-size: cover;
 	background-position: right;
+	position: relative;
+	margin-bottom: -72px;
+	z-index: 2;
 }
 .cta-content {
 	width: 460px;
@@ -484,7 +487,6 @@ select:-webkit-autofill:focus {
 	background-color: #1d1c1e;
 	padding: 144px 72px;
 	color: #fff;
-	/* margin-top: -72px; */
 }
 
 .site-footer-links {
