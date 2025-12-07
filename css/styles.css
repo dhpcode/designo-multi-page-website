@@ -390,6 +390,29 @@ select:-webkit-autofill:focus {
 	align-items: center;
 }
 
+/* Web design weblinks */
+.web-design-weblinks {
+	display: flex;
+	width: 100%;
+	gap: 30px;
+}
+
+.web-design-weblinks .weblinks-item {
+	width: 541px;
+	height: 308px;
+}
+
+.web-design-weblinks .weblinks-item:first-child {
+	background-image: url("../images/home/desktop/image-app-design.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.web-design-weblinks .weblinks-item:last-child {
+	background-image: url("../images/home/desktop/image-graphic-design.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 /* Illustration  */
 
 .illustration {
@@ -584,6 +607,7 @@ select:-webkit-autofill:focus {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
+	margin-bottom: 160px;
 }
 .portfolio-card {
 	width: 350px;
