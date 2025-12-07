@@ -412,7 +412,14 @@ select:-webkit-autofill:focus {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 .app-design-weblinks .weblinks-item:first-child {
+	background-image: url("../images/home/desktop/image-web-design-small.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.graphic-design-weblinks .weblinks-item:last-child {
 	background-image: url("../images/home/desktop/image-web-design-small.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -666,4 +673,14 @@ select:-webkit-autofill:focus {
 	background-image: url("../images/app-design/desktop/bg-pattern-intro-app.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
+}
+
+/* GRAPHIC DESIGN PAGE */
+/* GRAPHIC DESIGN PAGE */
+/* GRAPHIC DESIGN PAGE */
+
+.graphic-design-intro {
+	background-image: url("../images/graphic-design/desktop/bg-pattern-intro-graphic.svg");
+	background-repeat: no-repeat;
+	background-position: left;
 }
