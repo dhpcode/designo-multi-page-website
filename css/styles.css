@@ -553,6 +553,7 @@ select:-webkit-autofill:focus {
 	text-align: center;
 	margin-bottom: 160px;
 	position: relative;
+	overflow: hidden;
 }
 
 .intro::before {
@@ -574,5 +575,53 @@ select:-webkit-autofill:focus {
 	margin-bottom: 24px;
 }
 .web-hero-text {
+	margin: 0;
+}
+
+/* Portfolio */
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.portfolio-card {
+	width: 350px;
+	height: 478px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 15px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.portfolio-card:hover .portfolio-card-content {
+	background-color: #e7816b;
+	color: #fff;
+	transition: background-color 0.5s ease;
+}
+.portfolio-card:hover .portfolio-card-title {
+	color: #fff;
+}
+.portfoli-card-image {
+	width: 350px;
+	height: 320px;
+}
+.portfolio-card-content {
+	text-align: center;
+	background-color: #fdf3f0;
+	padding: 32px;
+}
+.portfolio-card-title {
+	color: #e7816b;
+	margin-top: 0;
+	margin-bottom: 16px;
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.portfolio-card-text {
 	margin: 0;
 }
