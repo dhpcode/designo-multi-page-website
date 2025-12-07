@@ -684,3 +684,41 @@ select:-webkit-autofill:focus {
 	background-repeat: no-repeat;
 	background-position: left;
 }
+
+/* ABOUT US PAGE */
+/* ABOUT US PAGE */
+/* ABOUT US PAGE */
+
+/* About us hero */
+
+.about-us-hero {
+	display: flex;
+	background-color: #e7816b;
+	color: #fff;
+	margin-bottom: 160px;
+	border-radius: 15px;
+	overflow: hidden;
+
+}
+.about-us-content {
+	padding: 135px 82px 135px 95px;
+	width: 635px;
+	height: 480px;
+	background-image: url('../images/about/desktop/bg-pattern-hero-about-desktop.svg');
+	background-position: bottom center;
+}
+.about-us-hero-title {
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+.about-us-hero-text {
+	margin: 0;
+}
+.about-us-image {
+	width: 476px;
+	height: 480px;
+}
