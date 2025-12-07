@@ -817,7 +817,6 @@ select:-webkit-autofill:focus {
 	transform: rotate(-90deg);
 }
 
-
 /* Service definition 2 */
 
 .service-definition2 {
@@ -825,10 +824,72 @@ select:-webkit-autofill:focus {
 	flex-direction: row-reverse;
 }
 
-
 .service-definition2 .service-definition-content {
-
 	background-image: url("../images/shared/desktop/bg-pattern-two-circles.svg");
 	background-repeat: no-repeat;
 	background-position: left bottom;
+}
+
+/* LOCATIONS PAGE */
+/* LOCATIONS PAGE */
+/* LOCATIONS PAGE */
+
+.locations {
+	margin-bottom: 160px;
+}
+.locations-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.locations-item:not(:last-child) {
+	margin-bottom: 32px;
+}
+.locations-item {
+	display: flex;
+	gap: 30px;
+}
+
+.locations-item:nth-child(even) {
+	flex-direction: row-reverse;
+}
+.locations-content {
+	border-radius: 15px;
+	overflow: hidden;
+	flex-grow: 1;
+	background-color: #fdf3f0;
+	padding: 88px 95px;
+	background-image: url("../images/shared/desktop/bg-pattern-two-circles.svg");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.locations-content-title {
+	color: #e7816b;
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+.locations-content-bottom {
+	display: flex;
+	gap: 30px;
+}
+
+.locations-content-bottom-item {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.locations-content-bottom-item span:first-child {
+	font-weight: 700;
+}
+
+.locations-img {
+	border-radius: 15px;
+	overflow: hidden;
+	width: 350px;
+	height: 326px;
+	cursor: pointer;
 }
