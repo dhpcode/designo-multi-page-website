@@ -893,3 +893,74 @@ select:-webkit-autofill:focus {
 	height: 326px;
 	cursor: pointer;
 }
+
+/* CONTACT PAGE */
+/* CONTACT PAGE */
+/* CONTACT PAGE */
+
+.contact {
+	display: flex;
+	align-items: center;
+	margin-bottom: 160px;
+	padding: 55px 95px;
+	background-color: #e7816b;
+	color: #fff;
+	border-radius: 15px;
+}
+.contact-content {
+	width: 540px;
+}
+.contact-title {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 48px;
+	margin-top: 0;
+	margin-bottom: 32px;
+}
+.contact-text {
+	width: 445px;
+}
+
+.contact-form {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-form label {
+	display: flex;
+	flex-direction: column;
+}
+
+label span {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 26px;
+	opacity: 0.5;
+}
+label input,
+textarea {
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	width: 100%;
+	outline: none;
+	color: #fff;
+	margin-bottom: 25px;
+}
+
+label textarea {
+	height: 100px;
+	resize: none;
+}
+
+.main-link-button {
+	align-self: flex-end;
+	border: none;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 100%;
+	letter-spacing: 1px;
+	color: #333136;
+	cursor: pointer;
+}
