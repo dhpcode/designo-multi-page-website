@@ -412,6 +412,11 @@ select:-webkit-autofill:focus {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.app-design-weblinks .weblinks-item:first-child {
+	background-image: url("../images/home/desktop/image-web-design-small.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 /* Illustration  */
 
