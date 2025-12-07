@@ -538,3 +538,41 @@ select:-webkit-autofill:focus {
 .site-footer-socials-link:active {
 	color: #ffad9b;
 }
+
+/* WEB DESIGN PAGE STYLES */
+/* WEB DESIGN PAGE STYLES */
+/* WEB DESIGN PAGE STYLES */
+
+/* WEB HERO */
+
+.web-hero {
+	padding: 64px 0;
+	border-radius: 15px;
+	background-color: #e7816b;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 160px;
+	position: relative;
+}
+
+.web-hero::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background-image: url("../images/shared/desktop/bg-pattern-call-to-action.svg");
+	/* background-size: cover; */
+	background-repeat: no-repeat;
+	background-position: right;
+	z-index: 1;
+	transform: scaleY(-1);
+}
+.web-hero-title {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 48px;
+	margin-top: 0;
+	margin-bottom: 24px;
+}
+.web-hero-text {
+	margin: 0;
+}
